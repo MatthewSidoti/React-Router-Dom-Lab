@@ -1,0 +1,50 @@
+/* Global styles for light mode */
+.app.light {
+  background-color: white;
+  color: black;
+}
+
+.navbar.light {
+  background-color: #f8f9fa;
+}
+
+.theme-toggle.light {
+  background-color: #007bff;
+  color: white;
+}
+
+/* Global styles for dark mode */
+.app.dark {
+  background-color: #121212;
+  color: white;
+}
+
+.navbar.dark {
+  background-color: #333;
+}
+
+.theme-toggle.dark {
+  background-color: #444;
+  color: white;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: inherit; 
+}
+
+.nav-links a:hover {
+  color: #888; 
+}
+
+
+.theme-toggle {
+  padding: 8px 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.theme-toggle:hover {
+  opacity: 0.8;
+}
